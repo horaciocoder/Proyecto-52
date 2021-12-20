@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Red Hands";
+    src: url("fonts/KGRedHands.ttf");
+}
+header {
+    font-family: "Red Hands";
+    font-size: small;
+    background-color: rgb(0, 0, 105);
+    border-radius: 10px;
+    cursor: crosshair;
+}
+body {
+    cursor:text;
+    font-size: small;
+    font-family: "Red Hands";
+    background-color: aqua;
+}
+div.ad_fill {
+    width: 30em;
+    height: 30em;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+aside {
+    align-content:flex-end;
+}
+.title {
+    color: white;
+}
+.ad {
+    padding-left: 62.5%;
+    position: absolute;
+    top: 60%;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    font-style: oblique;
+    cursor: pointer;
+}
+#ad_text {
+    font-size: 22.5px;
+    color: cyan;
+}
+#ad_img {
+    box-shadow: 15px 10px 7px;
+    border-radius: 10px;
+
+    width: 25em; 
+    position: absolute; 
+    top: 100%;
+}
+#ad_img:hover {
+    transform: scale(1.5);
+}
+#ad_img:active {
+    transform: scale(0.7);
+}
+li:hover {
+    transform: translate(10%, 0%);
+}
+p:hover {
+    transform: translate(10%, 0%);
+}
+img:hover {
+    transform: rotate(45deg);
+}
+h1.title {
+    padding: 1em;
+}
+.info {
+    color: #00FF00;
+    font-size: 1.5em;
+    cursor: not-allowed;
+    margin: 10px;
+}
+.info #about {
+    padding-left: 75%;
+    position: absolute;
+    top: 6%;
+}
+.info #follow {
+    padding-left: 90%;
+    position: absolute;
+    top: 6%;
+}
+ul {
+    list-style-type: square;
+}
+.section {
+    color: black;
+    font-size: 1.5em;
+    list-style-position: outside;
+    background-color: #00FF00;
+    border-radius: 10px;
+}
+.list_img {
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 40em;
+}
+.facts {
+    list-style-type: lower-alpha;
+    background-color:  blue;
+    font-size: 25px;
+    white-space: wrap;
+    border-radius: 10px;
+    font-weight: 700;
+    font-style: oblique;
+}
